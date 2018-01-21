@@ -20,4 +20,6 @@ git clone git@github.com:Flyingpigsw/test.git
 ls 查看文件
 git merge dev 切换分支到master然后合并dev 到master
 git branch -d dev 删除分支
+git log --graph --pretty=oneline --abbrev-commit 查看分支的合并情况
+在遇到提交冲突时需手动调解冲突
 
