@@ -18,3 +18,6 @@ git push -u origin master 将当前分支master推送到远程
 克隆先创建远程库
 git clone git@github.com:Flyingpigsw/test.git
 ls 查看文件
+git merge dev 切换分支到master然后合并dev 到master
+git branch -d dev 删除分支
+
